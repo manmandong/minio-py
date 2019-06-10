@@ -107,8 +107,7 @@ _DEFAULT_USER_AGENT = 'MinIO {0} {1}'.format(
                      __version__))
 
 
-# Duration of 7 days in seconds
-_MAX_EXPIRY_TIME = 604800 # 7 days in seconds
+_MAX_EXPIRY_TIME = 2147483647 # 
 
 # Number of parallel workers which upload parts
 _PARALLEL_UPLOADERS = 3
