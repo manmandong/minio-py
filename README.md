@@ -25,7 +25,7 @@ pip3 install minio
 ## Download from source
 
 ```sh
-git clone https://github.com/minio/minio-py
+git clone https://github.com/manmandong/minio-py
 cd minio-py
 python setup.py install
 ```
